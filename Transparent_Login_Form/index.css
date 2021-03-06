@@ -1,0 +1,103 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+}
+
+body {
+  background: url(bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.container {
+  color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+
+  /* Code that make whole div in center by vertically and horizontally */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px solid #666161;
+  padding: 10px;
+
+  /* Code that make whole div GlassMorphosim Design */
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  /* Code that make whole div Neumorphism design */
+  /* border-radius: 36px;
+background: #685f5f;
+box-shadow:  35px 35px 70px #b3aaaa,
+-35px -35px 70px #b4a6a6; */
+}
+
+.container h1 {
+  font-size: 40px;
+  border-bottom: 5px solid purple;
+  margin-bottom: 15px;
+  padding: 13px 0;
+  font-weight: bold;
+}
+
+.box {
+  padding: px;
+  width: 100%;
+  margin-top: 5px;
+  margin: 12px 0px;
+  border-bottom: 2px solid purple;
+}
+
+.box input {
+  background: none;
+  width: 75%;
+  padding: 10px 10px;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  color: black;
+}
+::placeholder {
+  color: #000;
+  font-weight: bold;
+}
+.box i {
+  width: 25px;
+  text-align: center;
+  /* padding: 12px 0px; */
+}
+
+.btn {
+  cursor: pointer;
+  outline: none;
+  width: 50%;
+  margin: 20px 10px;
+  padding: 7px;
+  border: 2px solid purple;
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  background: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: purple;
+  cursor: pointer;
+  background: white;
+  font-weight: bold;
+  opacity: 0.5;
+}
